@@ -1,23 +1,12 @@
-const body = document.body;
-const button = document.getElementById("toggleBtn");
+var body = document.body;
+var button = document.getElementById("btn");
 
-// Apply saved theme when page loads
-if (localStorage.getItem("theme") === "dark") {
-    body.classList.add("dark");
-} else {
-    body.classList.add("light");
-}
+button.onclick = function () {
 
-button.addEventListener("click", function () {
-
-    if (body.classList.contains("dark")) {
-        body.classList.remove("dark");
-        body.classList.add("light");
-        localStorage.setItem("theme", "light");
+    if (body.className === "light") {
+        body.className = "dark";
     } else {
-        body.classList.remove("light");
-        body.classList.add("dark");
-        localStorage.setItem("theme", "dark");
+        body.className = "light";
     }
 
-});
+};
