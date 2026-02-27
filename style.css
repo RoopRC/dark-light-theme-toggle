@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: Poppins, sans-serif;
+    transition: 0.4s;
+}
+
+/* Light Theme */
+.light {
+    background-color: white;
+    color: black;
+}
+
+/* Dark Theme */
+.dark {
+    background-color: #121212;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    margin-top: 150px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
