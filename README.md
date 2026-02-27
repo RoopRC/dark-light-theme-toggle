@@ -20,3 +20,8 @@ This is a simple mini project built using:
 ## 🚀 How to Run
 1. Download the project
 2. Open index.html in browser
+
+## 🌍 Live Preview
+
+👉 **Click Here to View Project**  
+🔗 https://RoopRC.github.io/dark-light-theme-toggle/
